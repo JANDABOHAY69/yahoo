@@ -40,6 +40,7 @@ class Hotmail:
 			exit()
 		
 		#<!----- login to generate access token -----!>#
+		print("* izinkan termux untuk mengakses penyimpanan.")
 		user = raw_input("> username: ")
 		pasw = raw_input("> password: ")
 		
