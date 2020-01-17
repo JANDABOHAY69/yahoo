@@ -1,4 +1,4 @@
-![Python|2.7](https://img.shields.io/badge/Python-2.7-magenta.svg)
+![Python|2.7](https://img.shields.io/badge/Python-2.7-blue.svg)
 
 <div>
   <h2>Dump Hotmail</h2>
