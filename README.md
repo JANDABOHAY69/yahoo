@@ -2,7 +2,7 @@
 
 <h3>Dump Hotmail</h3>
 <div>
-  <img scr="hotmail.jgp"/>
+  <img scr="hotmail.jpg"/>
 </div>
 
 * pkg install python2
