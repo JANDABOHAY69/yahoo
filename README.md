@@ -7,6 +7,6 @@
 
 <div>
   <h4>Installing</h4>
-  * pkg install python2
+  * pkg install python2<br>
   * pip2 install requests
 </div>
