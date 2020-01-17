@@ -7,6 +7,10 @@
 
 <div>
   <h4>Installing</h4>
-  * pkg install python2<br>
-  * pip2 install requests
+  * pkg install git python2<br>
+  * git clone https://github.com/dz-id/dump-hotmail<br>
+  * pip2 install requests<br>
+  <h4>Run</h4>
+  * cd dump-hotmail<br>
+  * python2 hotmail.py
 </div>
