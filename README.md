@@ -3,5 +3,7 @@
 <h3>Dump Hotmail</h3>
 <div>
   <img scr="hotmail.jgp"/>
- </div>
+</div>
 
+* pkg install python2
+* pip2 install requests
