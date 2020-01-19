@@ -18,7 +18,7 @@ class Hotmail:
 |    \ _ _ _____ ___   |  |  |___| |_ _____ ___|_| |
 |  |  | | |     | . |  |     | . |  _|     | .'| | |
 |____/|___|_|_|_|  _|  |__|__|___|_| |_|_|_|__,|_|_|
-      \033[0m© {year}    \033[1;96m|_|     \033[0mMade With By Love DulLah \033[0m\n""".format(
+      \033[0m© {year}    \033[1;96m|_|     \033[0mMade With Love By DulLah \033[0m\n""".format(
                 	year = str(time.strftime("%Y"))
                 ))
                 
