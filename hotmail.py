@@ -189,19 +189,6 @@ class Hotmail:
 					birth = "---"
 				
 				if (cek == "1"):
-					#<! ----- siapatau yang punya api ngeliat, izin pake apinya. -----!>#
-					post = requests.request(
-						"POST", "https://nabill.me/Tools/Checker-Tools/Fb-Checker-UID-Email/api.php",
-							data = {"email" : email},
-								headers = {"User-Agent" : str(ua.strip())}
-					)
-					try:
-						if (post.json()["tahun"] != False):
-							tahun = post.json()["tahun"]
-						else:
-							tahun = "---"
-					except: tahun = "---"
-					
 					foll = requests.request(
 						"GET", "https://graph.facebook.com/{userid}/subscribers?access_token={token}".format(
 							userid = user, token = self.token),
@@ -224,9 +211,6 @@ class Hotmail:
 					))
 					print("\r Ttl       : {ttl}                        ".format(
 						ttl=birth
-					))
-					print("\r Tahun     : {thn}                        ".format(
-						thn=tahun
 					))
 					print("\r Followers : {followers}                   ".format(
 						followers=followers
